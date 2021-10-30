@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(/Images/ruslan-bardash-b0FxvAf7g-o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+
+
+.navbar-nav{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 200px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+   
+    margin-top: 12px;
+    width: 100%;
+   
+}
+.navbar-nav a{
+    color: rgb(245, 245, 241);
+}
+
+.navbar-nav a:hover{
+    color: rgb(78, 168, 209);
+  
+ 
+  
+}
+
+.login{
+  display: flex;
+ background-color: white;
+ justify-content: center;
+ padding: 30px;
+ box-shadow: 5px 8px 22px rgb(8, 1, 26);
+  margin:50px auto;
+  width:26%;
+  height:500px;
+  
+  border-radius: 20px;
+ 
+}  
+
+.login h2{
+    text-align: center;
+    padding-bottom: 35px;
+
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    
+    margin: 30px 0;
+  
+  }
+  .txt_field input{
+   
+    padding: 20px 5px;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+    
+    outline: none;
+  }
+  
+  .txt_field label{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #07273b;
+    transition: .5s;
+  }
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+  }
+  .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before{
+    width: 100%;
+  }
+
+  .btn{
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+    border: 1px solid;
+    text-transform: uppercase;
+    background-color:#106096;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+   
+  }
+  
+  .btn:hover{
+    border:2px solid #074042;
+    color: white;
+    transition: .5s;
+    transform: scale(1.02);
+    border: none;
+  }
+  .fpass a,.signup a{
+    text-decoration: none;
+    color: #185a80;
+;
+
+  }
+  .fpass,.signup{
+   text-align: center;
+
+  }
+  
+
+
+  
