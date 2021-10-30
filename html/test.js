@@ -112,6 +112,7 @@ let questions = [
  
 ];
 //selecting all required elements
+const doc_btn = document.querySelector(".doc_btn button");
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
@@ -123,7 +124,10 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-
+doc_btn.onclick = ()=>{
+  window.location.href='#'
+    console.log("documentation");
+}
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); 
 }
@@ -273,7 +277,7 @@ function showResult(){
     //     scoreText.innerHTML = scoreTag;
     // }
     else{ // if user scored less than 1
-        let scoreTag = '<span>and sorry you failed , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and Sorry you failed , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
         result = 0;
         console.log(result);
