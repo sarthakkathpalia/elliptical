@@ -166,7 +166,8 @@ section {
       }
       
       footer {
-        background-image:url(/Images/cosmos.jpg) ;
+        background-color: #000000e7;
+        /* background-image:url(/Images/cosmos.jpg) ; */
       }
       .form{
 
