@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+        *{
+        padding: 0%;
+        margin: 0%;
+            }
+        input{
+            border-radius: 5px;
+            margin-left: 10px;
+            height: 20px;
+            background-color: slategray;
+            border-style: solid;
+            border-color: #16BFFD;
+        }
+        textarea{
+            border-radius: 5px;
+            margin-left: 10px;
+         
+            background-color: slategray;
+            border-style: solid;
+            border-color: #16BFFD;
+        }
+        label{
+            background-color: #cb30660a;
+            padding: 7px;
+            margin: 10px;
+            border-radius: 2px;
+        }
+        .book{
+            display:flex;
+            align-items: center;
+            
+            background-image: linear-gradient(to right ,#16BFFD,#CB3066);
+        }
+        .box{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 60px;
+            font-size: 20px;
+            color: white;
+            background-image: linear-gradient(to right , #000000,#434343);
+            width: 40%;
+            height: 650px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            margin-left: 300px;
+            padding: 100px;
+        }
+        button{
+            background-color:#16BFFD ;
+            width: 600px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .head{
+            background: url("gif1.gif");
+            height: 600px;
+            background-size: cover;
+            background-position: center;
+         
+        }
+        h2{
+            color: white;
+            font-size: 100px;
+            text-align: center;
+            padding-top: 130px;
+        }
+
+</style>
+<body>
+    <div class="head">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto aliquam officiis saepe quibusdam sequi laudantium repudiandae velit, quos molestias inventore cum.</p>
+    </div>
+    <form class="book">  
+      <div class="box">
+        <label> First Name </label>         
+        <input type="text" name="firstname" size="15"/>  
+        <label> Last Name: </label>         
+        <input type="text" name="lastname" size="15"/> <br> <br> <br> 
+          
+        <label>   
+        Gender :  
+        </label><br>  <br>
+        <input type="radio" name="male"/> Male  
+        <input type="radio" name="female"/> Female   
+        <input type="radio" name="other"/> Other  
+        <br>  
+        <br>  
+          <br>
+        <label>   
+        Phone :  
+        </label>  
+        <input type="text" name="country code"  value="+91" size="2"/>   
+        <input type="text" name="phone" size="10"/> <br> <br>  <br>
+        <label>
+            Email:  
+        </label>
+        <input type="email" id="email" name="email"/> <br>    
+        <br><br>
+        <label>
+            Address  
+        </label> 
+        <br>
+        <br>  
+        <textarea cols="80" rows="5" value="address">  
+        </textarea>  
+        <br> <br>  <br>
+
+        <label>   
+            Certificate:
+        </label>  
+        <br>
+        <br>
+        <input type="file" id="image-input" accept="image/*">
+        <br>
+        <br>
+        
+        <button><a href="index.html">Proceed To Payment</a></button> 
+    </div>
+        </form>  
+</body>
+</html>
