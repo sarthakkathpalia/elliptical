@@ -39,7 +39,7 @@
     margin-top: 350px;
 }
 .home h1{
-    color: rgb(148, 11, 11);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 .home p{
@@ -163,21 +163,27 @@ section {
       
       footer {
         background-color: #000000e7;
+        margin-bottom: 0%;
         /* background-image:url(/Images/cosmos.jpg) ; */
       }
       .form{
 
-          height: 690px;
+        height: 820px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 10%;
         /* background: url('215c7fdca6033092baa04b35c17466bd.gif') no-repeat ;
         background-size: cover; */
+        padding-top: 80px;
+        padding-left: 350px;
         background-image:url("/Images/contact.jpg");
         background-size: cover;
         background-position: center;
         display: flex;
         color: white;
         flex-direction: column;
+    }
+    h2{
+      color: black;
+      font-weight: bolder;
     }
     input,textarea{
         background-color: #434343;
