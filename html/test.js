@@ -125,7 +125,7 @@ const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
 doc_btn.onclick = ()=>{
-  window.location.href=('https://drive.google.com/file/d/1wkYomPQ6RAfN5lZi2yLxQJd42SJstf8_/view?usp=sharing','_blank')
+  window.location.href=('https://drive.google.com/file/d/1wkYomPQ6RAfN5lZi2yLxQJd42SJstf8_/view?usp=sharing')
     console.log("documentation");
 }
 start_btn.onclick = ()=>{
