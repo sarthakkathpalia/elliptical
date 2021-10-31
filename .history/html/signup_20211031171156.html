@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/signup.css">
+  <title>Elliptical | SignUp</title>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <a class="logo" href="#">
+      <img src="./Ellip1.png" alt="Elliptical" width="200px" height="50px">
+    </a>
+    <div class="container">
+      <!-- <a class="navbar-brand" href="#">Elliptical</a> -->
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#fly">FLY TO SPACE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">About Us</a>
+          </li>
+          
+          <li class="nav-item">
+          <li class="nav-item">
+              <a class="nav-link" href="test.html">Training</a>
+          </li>
+            <a class="nav-link" href="#">Lunar Land</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#services">Reviews</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Get In Touch</a>
+          </li>
+          <div class="right">
+              <span id="user" class="message">Hello, <email-id></Email-id></span>
+          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html" onclick="logout()">Logout</a>
+            </li>
+         
+         
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+
+         
+        </ul>
+          <!-- <div class="right ms-auto">
+          <a class="nav-link" href="#"></a>
+        </div>
+        <input type="checkbox" id="check"> -->
+  <!-- <label for="check">
+    <i class="bi bi-bag" id="btn"></i>
+    <i class="bi bi-x-square" id="cancel"></i>
+  </label> -->
+  <!-- <div class="sidebar">
+    <header>Shop</header>
+    <a href="#" class="active">
+      <i class="bi bi-caret-right"></i>
+      <span>Dashboard</span>
+    </a>
+    <a href="#">
+      <i class="bi bi-caret-right"></i>
+      <span>Shortcuts</span>
+    </a>
+    <a href="#">
+      <i class="bi bi-caret-right"></i>
+      <span>Overview</span>
+    </a>
+    <a href="#">
+      <i class="bi bi-caret-right"></i>
+      <span>Events</span>
+    </a>
+    <a href="#">
+      <i class="bi bi-caret-right"></i>
+      <span>About</span>
+    </a>
+    <a href="#">
+      <i class="bi bi-caret-right"></i>
+      <span>Services</span>
+    </a>
+    <a href="#">
+      <i class="bi bi-caret-right"></i>
+      <span>Contact</span>
+    </a>
+  </div> -->
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="signup">
+    <div class="box">
+      <form onsubmit="signUp()" id="loginForm">
+        <h2>SignUp</h2>
+        <div class="txt_field mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" placeholder="Name" class="form-control" id="exampleInputName"
+            aria-describedby="emailHelp">
+        </div>
+        <div>
+          <label for="exampleInputEmail1" class="form-label">Gender</label>
+        </div>
+        <div class="form-check-inline">
+
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Male
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Female
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Other
+          </label>
+        </div>
+        <div class=" txt_field mb-3 mt-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" placeholder="Email address" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+        </div>
+        <div class="txt_field mb-3">
+          <label for="exampleInputPassword1" class="form-label"> Create a password (min 6 characters)</label>
+          <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class=" txt_field mb-3">
+          <label for="exampleInputPassword1" class="form-label"> Confirm password</label>
+          <input type="password" placeholder="Confirm Password" class="form-control" id="exampleInputPassword2">
+        </div>
+
+        <button type="submit" class="btn ">SignUp</button>
+      </form>
+      <div class="sign mt-4">
+      <a class="sign"href="login.html">
+        <h6>Already have an account?</h6>
+      </a>
+    </div>
+    </div>
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+
+  <script src="firebase.js"></script>
+  <script src="login.js"></script>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+  integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+  integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</html>

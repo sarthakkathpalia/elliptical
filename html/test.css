@@ -6,9 +6,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.logo{
+    margin-top: 50px;
+    padding-left: 80px;
+}
+img{
+    margin-top: 60px;
+}
 body{
-    background:#84c1ff;
-    /* background-image: linear-gradient(to right ,#EB3349,#F45C43); */
+    /* background:#84c1ff; */
+    background-image: linear-gradient(to right ,#000000,#434343);
     /* background: url(); */
     /* background-image: linear-gradient(to right , red,black); */
 }
