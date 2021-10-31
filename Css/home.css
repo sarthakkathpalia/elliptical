@@ -4,7 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.logo{
+    /* background-color: white; */
+   /* margin: 0px; */
+   margin-left: 60px;
+   margin-top: -70px;
+}
 .navbar-nav{
     font-weight: bold;
     text-transform: uppercase;
