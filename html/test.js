@@ -155,6 +155,7 @@ let widthValue = 0;
 
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
+const certificate_btn = result_box.querySelector(".buttons .certificate");
 
 // if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
@@ -178,6 +179,10 @@ restart_quiz.onclick = ()=>{
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
+}
+certificate_btn.onclick=()=>{
+  window.location.href="./certificate.html";
+  console.log("certificate");
 }
 
 const next_btn = document.querySelector("footer .next_btn");
